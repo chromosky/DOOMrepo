@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background-color: #a9a9a9;
+    border: 1px solid;
+    padding: 15px;
+}
+h3 {
+	color: #00008b;
+}
+myDIV_7 {
+    background-color: #a9a9a9;
+    border: 1px solid;
+    padding: 50px;
+    color: #000;
+}
+</style>
+</head>
+<body>
+
+<h3>This example uses the <b>addEventListener() method</b> to attach a click event to a button.</h3>
+
+<button id="myBtn_1">Try it</button>
+
+<p id="demo_1"></p>
+
+<button id="myBtn_2">Try it</button>
+
+<h3>This example uses the <b>addEventListener() method</b> to add two click events to the same button.</h3>
+
+<button id="myBtn_3">Try it</button>
+
+<h3>This example uses the <b>addEventListener() method</b> to add many events on the same button.</h3>
+
+<button id="myBtn_4">Try it</button>
+
+<p id="demo_4"></p>
+
+<h3>This example uses the addEventListener() method on the window object.</h3>
+
+<p>Try resizing this browser window to trigger the "resize" event handler.</p>
+
+<p id="demo_5"></p>
+
+<h3>This example demonstrates how to pass parameter values when using the 
+addEventListener() method.</h3>
+
+<p>Click the button to perform a calculation.</p>
+
+<button id="myBtn_6">Try it</button>
+
+<p id="demo_6"></p>
+
+<h3>This example demonstrates the difference between bubbling and capturing when adding event listeners.</h3>
+
+<div id="myDiv">
+  <p id="myP">Click this paragraph, I am Bubbling.</p>
+</div><br>
+
+<div id="myDiv2">
+  <p id="myP2">Click this paragraph, I am Capturing.</p>
+</div>
+
+<div id="myDIV_7"><h3>This div element has an onmousemove event handler that displays a random number every time you move your mouse inside this orange field.</h3>
+  <p>Click the button to remove the DIV's event handler.</p>
+  <button onclick="removeHandler()" id="myBtn_7">Try it</button>
+</div>
+
+<p id="demo_7"></p>
+
+
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
